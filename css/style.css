@@ -65,20 +65,7 @@ div.pets h2{
     justify-content: center;
 
 }
-div.recipes h3{
-    font-size: 42px;
-    font-family: "Georgia", "Arial";
-    color: #0d87c0;
-    padding: 15px;
-    text-align: center;
-    border: 10px solid #0d87c0;
-    border-radius: 15px;
-    display: inline-block;
-    border-bottom-width: 10px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-top-width: 10px;
-}
+
 h4{
     font-size: 42px;
     font-family: "Georgia", "Arial";
@@ -170,22 +157,22 @@ div.ringo h3, div.denver h3, div.georgia h3, div.sunny h3, div.cody h3, div.bolo
 
 
 #recipe_title {
-    font-size: 40px;
+    font-size: 50px;
     background-color: #FFFF00;
 }
 
 #pets_title {
-    font-size: 40px;
+    font-size: 50px;
     background-color: #FFFF00;
 }
 
 #travel_title {
-    font-size: 40px;
+    font-size: 50px;
     background-color: #FFFF00;
 }
 
 #home_title {
-    font-size: 40px;
+    font-size: 50px;
     background-color: #FFFF00;
 }
 
