@@ -36,7 +36,7 @@ h1{
     color: #020244;
     font-size: 25px;
 }
-div.pets h2{
+div.pets h2, div.recipes h2{
     font-size: 42px;
     font-family: "Georgia", "Arial";
     color: #0d87c0;
@@ -59,8 +59,8 @@ div.pets h2{
 .image-grid img{
     width: 100%;
     height: auto;
-    border: 4px solid #020244; /* Add a border around each image */
-    border-radius: 8px; /* Add rounded corners to the border */
+    border: 4px solid #020244; 
+    border-radius: 8px; 
     margin: 5px; 
     justify-content: center;
 
@@ -85,7 +85,7 @@ div{
     font-weight: 200%;
     text-align: center;
 }
-div.ringo p, div.denver p, div.georgia p, div.sunny p, div.cody p, div.bolognese p, div.salmon p, div.rolls p, div.costa_rica p, div.rome p, div.tokyo p{
+div.pets p, div.travel p, div.recipes p, div.ringo p, div.denver p, div.georgia p, div.sunny p, div.cody p, div.bolognese p, div.salmon p, div.rolls p, div.costa_rica p, div.rome p, div.tokyo p{
     font-family: "Georgia", "Arial";
     font-size: 25px;
     color:#020244;
@@ -175,6 +175,12 @@ div.ringo h3, div.denver h3, div.georgia h3, div.sunny h3, div.cody h3, div.bolo
     font-size: 50px;
     background-color: #FFFF00;
 }
+@media (prefers-reduced-motion:reduce) {
+    .animation1, .animation2, .animation3 {
+      animation: none;
+      
+    }
+  }
 
 
 
